@@ -8,6 +8,15 @@
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
+  "expo": {
+    "doctor": {
+      "reactNativeDirectoryCheck": {
+        "enable": true,
+        "exclude": ["moment", "react-navigation"],
+        "listUnknownPackages": true
+      }
+    }
+  },
   "dependencies": {
     "@expo/json-file": "^9.1.5",
     "@expo/metro-runtime": "~5.0.4",
